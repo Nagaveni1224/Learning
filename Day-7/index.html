@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .internal-style {
+            background-color: white;
+            color: #4a69bd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .internal-style h2 {
+        color: #4a69bd;
+        margin-bottom: 10px; 
+    }
+
+    .internal-style p {
+        color: black; 
+    }
+  
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Learning CSS Styles</h1>
+        <p>Examples of Inline, Internal, and External CSS</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>What Does CSS Do?</h2>
+            <p>
+                CSS controls the design and layout of web pages. It helps
+                customize colors, fonts, spacing, and responsiveness.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Inline CSS Example</h2>
+
+            <p style="color: crimson; font-size: 20px; font-weight: bold;">
+                This text is styled using Inline CSS.
+            </p>
+        </section>
+
+        <section class="internal-style">
+            <h2>Internal CSS Example</h2>
+            <p>
+                This section uses Internal CSS written inside the style tag.
+            </p>
+        </section>
+
+        <section class="card external-style">
+            <h2>External CSS Example</h2>
+            <p>
+                This section is styled using the external CSS file.
+            </p>
+
+            <a href="#">Learn More</a>
+        </section>
+
+    </main>
+
+</body>
+</html>
